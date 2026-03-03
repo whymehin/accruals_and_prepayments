@@ -397,6 +397,11 @@
 </div>
 
 <div class="main-stage">
+    <div class="feedback-bar">
+        <span class="score-badge" id="score-display">🏆 分數: 0</span>
+        <span id="feedback-msg">歡迎！請選擇一個模式開始遊戲。</span>
+        <button onclick="resetGame()" style="background:#ff6b6b; color:white; border:none; padding:5px 15px; border-radius:15px; cursor:pointer; font-weight:bold;" id="btn-reset">🔄 重置</button>
+    </div>
     
     <div class="instructions" id="instruction-text">
         把卡片拖拉到正確的籃子裡！
@@ -486,12 +491,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="feedback-bar">
-        <span class="score-badge" id="score-display">🏆 分數: 0</span>
-        <span id="feedback-msg">歡迎！請選擇一個模式開始遊戲。</span>
-        <button onclick="resetGame()" style="background:#ff6b6b; color:white; border:none; padding:5px 15px; border-radius:15px; cursor:pointer; font-weight:bold;" id="btn-reset">🔄 重置</button>
     </div>
 
 </div>
@@ -941,6 +940,7 @@
 </body>
 
 </html>
+
 
 
 
